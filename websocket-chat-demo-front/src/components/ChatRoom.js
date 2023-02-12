@@ -51,6 +51,8 @@ const ChatRoom = () => {
                 publicChats.push(payloadData);
                 setPublicChats([...publicChats]);
                 break;
+            default:
+                break;
         }
     }
     
